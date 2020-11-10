@@ -1,0 +1,28 @@
+.general {
+    margin:  10px auto;
+    /* width: 600px; */
+    /* background-color: lightgray; */
+}
+
+.genForm {
+    margin: 10px;
+    padding: 50px;
+    border: 1px solid royalblue;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.navButton {
+    color: whitesmoke;
+    background-color: darkblue;
+    padding: 10px 10px ;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    text-decoration: none;
+    color:white;
+    background-color: rgb(6, 38, 51);
+}

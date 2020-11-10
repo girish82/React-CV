@@ -1,0 +1,9 @@
+.cardList {
+    margin-bottom: 10px;
+}
+
+.summary {
+    margin: 10px auto;
+    /* display: flex;
+    justify-content: space-around; */
+}

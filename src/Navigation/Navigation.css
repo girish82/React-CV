@@ -1,0 +1,52 @@
+* {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation {
+    margin: 1px;
+    width: 99%;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: darkblue;
+    padding: 10px;
+    display: flex;
+}
+
+nav {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    /* float: left; */
+    background-color: darkgray;
+    height: 90vh;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+}
+
+.navClass {
+    color : whitesmoke;
+}
+
+.navClass:hover {
+    color: darkblue;
+    background-color: gainsboro;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navActive {
+    background-color: gainsboro;
+    color : darkblue;
+    padding: 10px;
+    border-radius: 10px;
+}

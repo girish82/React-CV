@@ -1,0 +1,14 @@
+* {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    margin: 1px;
+    width: 99%;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: darkblue;
+    padding: 10px;
+}

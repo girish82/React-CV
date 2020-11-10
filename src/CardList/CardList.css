@@ -1,0 +1,30 @@
+.cardList {
+    /* margin-left: auto auto; */
+    margin-left: 20px;
+}
+
+.cardInner {
+    background-color: gray;
+    font-size: x-small;
+    
+}
+
+.navClass {
+    color: white;
+}
+
+.navClass:hover {
+    color: darkblue;
+}
+
+.cardTitle {
+    margin-bottom: 0px;
+    font-size: large;
+}
+
+.cardBlock {
+    background-color: lightgray;
+    margin: 13px;
+    display: block;
+    border-radius: 10px;
+}
