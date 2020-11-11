@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Input from '../Input/Input';
 import './General.css';
-import CustomButton from '../CustomButton/CustomButton'
+// import CustomButton from '../CustomButton/CustomButton'
 import 'bootstrap/dist/css/bootstrap.css';
 import Form from 'react-bootstrap/Form';
 import { connect } from 'react-redux';

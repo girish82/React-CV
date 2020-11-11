@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Experiance.css';
 import Input from '../Input/Input';
-import CustomButton from '../CustomButton/CustomButton';
+// import CustomButton from '../CustomButton/CustomButton';
 import 'bootstrap/dist/css/bootstrap.css';
 import Form from 'react-bootstrap/Form';
 import Textarea from '../Textarea/Textarea';
@@ -57,67 +57,67 @@ class Experiance extends Component {
     console.log(this.state);
     return (
       <div className='experiance row'>
-        <div className="col-md-6 m-auto">
-        <Form className="genForm">
-          <Input
-            value={this.state.company}
-            label='Company'
-            type='text'
-            placeholder='Enter Company Name'
-            controlId='Company'
-            handleChange={this.handleCompany}
-          ></Input>
-          <Input
-            value={this.state.position}
-            label='Position'
-            type='text'
-            placeholder='Enter Position'
-            controlId='Position'
-            handleChange={this.handlePosition}
-          ></Input>
-          <Input
-            value={this.state.from}
-            label='Job From'
-            type='date'
-            placeholder='Job Start From'
-            controlId='JobStart'
-            handleChange={this.handleFrom}
-          ></Input>
-          <Input
-            value={this.state.to}
-            label='Job To'
-            type='date'
-            placeholder='Job Finished On'
-            controlId='JobEnd'
-            handleChange={this.handleTo}
-          ></Input>
-          <Textarea
-            value={this.state.tasks}
-            label='Job Tasks'
-            type='textarea'
-            placeholder='Job Tasks'
-            controlId='JobTask'
-            handleChange={this.handleTask}
-          ></Textarea>
-          {/* <CustomButton caption="Submit"
+        <div className='col-md-6 m-auto'>
+          <Form className='genForm'>
+            <Input
+              value={this.state.company}
+              label='Company'
+              type='text'
+              placeholder='Enter Company Name'
+              controlId='Company'
+              handleChange={this.handleCompany}
+            ></Input>
+            <Input
+              value={this.state.position}
+              label='Position'
+              type='text'
+              placeholder='Enter Position'
+              controlId='Position'
+              handleChange={this.handlePosition}
+            ></Input>
+            <Input
+              value={this.state.from}
+              label='Job From'
+              type='date'
+              placeholder='Job Start From'
+              controlId='JobStart'
+              handleChange={this.handleFrom}
+            ></Input>
+            <Input
+              value={this.state.to}
+              label='Job To'
+              type='date'
+              placeholder='Job Finished On'
+              controlId='JobEnd'
+              handleChange={this.handleTo}
+            ></Input>
+            <Textarea
+              value={this.state.tasks}
+              label='Job Tasks'
+              type='textarea'
+              placeholder='Job Tasks'
+              controlId='JobTask'
+              handleChange={this.handleTask}
+            ></Textarea>
+            {/* <CustomButton caption="Submit"
         handleAdd={() => this.props.addExperiance(this.state.company,this.state.position,
             this.state.from,this.state.to,this.state.tasks)}></CustomButton> */}
-          <NavLink
-            className='navButton'
-            to='/Summary'
-            onClick={() =>
-              this.props.addExperiance(
-                this.state.company,
-                this.state.position,
-                this.state.from,
-                this.state.to,
-                this.state.tasks
-              )
-            }
-          >
-            Submit
-          </NavLink>
-        </Form>
+            <NavLink
+              className='navButton'
+              to='/Summary'
+              onClick={() =>
+                this.props.addExperiance(
+                  this.state.company,
+                  this.state.position,
+                  this.state.from,
+                  this.state.to,
+                  this.state.tasks
+                )
+              }
+            >
+              Submit
+            </NavLink>
+          </Form>
         </div>
       </div>
     );
